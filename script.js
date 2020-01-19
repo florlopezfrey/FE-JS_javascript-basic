@@ -26,7 +26,7 @@ if ($nota_examen >= 4) {
 
 
 $frase = "Tinc un cotxe de color blau";
-console.log($frase);
+console.log('Frase original: '+$frase);
 $frase = $frase.replace("blau","verd");
 console.log($frase);
 $frase = $frase.replace(/o/gi,'u').replace("verd","blau"); // la I del GI responde a que sea "case insensitive"
